@@ -10,7 +10,7 @@ import org.junit.Ignore;
 import org.junit.Test;
 import org.omg.CORBA.OBJ_ADAPTER;
 import org.omg.CORBA.Object;
-
+import main.Equalities;
 import java.util.Arrays;
 import java.util.stream.IntStream;
 
@@ -25,9 +25,14 @@ public class equalities {
 //  1. We shall contemplate truth by testing reality, via equality
     @Test
     public void testingEquality(){
-        assert(
-                BLANK == true
-        );
+        Equalities eq = new Equalities();
+        try {
+            assertTrue(eq.testingEquality());
+            System.out.print("Yep, Well done true does equal true");
+        } catch (NullPointerException e){
+            System.out.print("Nope, try removing changing the BLANK for the boolean that will balance the equation");
+            fail();
+        }
     }
 
 //  2. We can determine difference as well as equality

@@ -20,12 +20,12 @@ public class checkYourWork {
     @Test
     public void printAString(){
         StringsMain strings = new StringsMain();
-        assertEquals("You are stupid", strings.printAString(),("Hello World"));
+        assertEquals("Try making the string being printed, as below","Hello World!", strings.printAString());
     }
 
     @Test
     public void charToStringTest(){
         StringsMain strings = new StringsMain();
-        assert (strings.charToString().equals("HEL"));
+        assertEquals("You'll need to add each character in to the charArray individually as below","Hello World!",strings.charToString());
     }
 }

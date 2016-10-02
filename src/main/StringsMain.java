@@ -6,7 +6,7 @@ package main;
 public class StringsMain {
 // 1. print Hello World to the console
     public String printAString(){
-        String helloWorld = "";
+        String helloWorld = "Hello World";
         System.out.print(helloWorld);
         return helloWorld;
     }
