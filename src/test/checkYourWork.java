@@ -1,15 +1,7 @@
 package test;
 
-import com.sun.istack.internal.NotNull;
-import main.MyUnit;
-import main.StringsMain;
-import org.junit.Ignore;
+import main.Strings;
 import org.junit.Test;
-import org.omg.CORBA.OBJ_ADAPTER;
-import org.omg.CORBA.Object;
-
-import java.util.Arrays;
-import java.util.stream.IntStream;
 
 import static org.junit.Assert.*;
 /**
@@ -19,19 +11,19 @@ public class checkYourWork {
 
     @Test
     public void printAStringTest(){
-        StringsMain strings = new StringsMain();
+        Strings strings = new Strings();
         assertEquals("Try making the string being printed, as below","Hello World!", strings.printAString());
     }
 
     @Test
     public void charToStringTest(){
-        StringsMain strings = new StringsMain();
+        Strings strings = new Strings();
         assertEquals("You'll need to add each character in to the charArray individually to make the expected below","Hello World!",strings.charToString());
     }
 
     @Test
     public void quoteMarksTest(){
-        StringsMain strings = new StringsMain();
+        Strings strings = new Strings();
         assertEquals("You'll need to work out a way on including speach marks in a String",
                      "Jack said 'I love Strings in Java'",
                       strings.quoteMarks());
@@ -39,7 +31,7 @@ public class checkYourWork {
 
     @Test
     public void partOfAStringTest(){
-        StringsMain strings = new StringsMain();
+        Strings strings = new Strings();
         assertEquals("How can you just print the expected below",
                 "789",
                 strings.partOfAString());
@@ -47,7 +39,7 @@ public class checkYourWork {
 
     @Test
     public void makeCollectionOfWordsTest(){
-        StringsMain strings = new StringsMain();
+        Strings strings = new Strings();
         assertEquals("That's not my favourite bit!",
                 "Bacon",
                 strings.makeCollectionOfWords());
@@ -55,7 +47,7 @@ public class checkYourWork {
 
     @Test
     public void splitWithoutCommaTest(){
-        StringsMain strings = new StringsMain();
+        Strings strings = new Strings();
         assertEquals("That's not my favourite bit!",
                 "Cucumber",
                 strings.splitWithoutComma());
@@ -63,7 +55,7 @@ public class checkYourWork {
 
     @Test
     public void joinCollectionsToStringTest(){
-        StringsMain strings = new StringsMain();
+        Strings strings = new Strings();
         assertEquals("That's not my favourite bit!",
                 "Fish & Chips & Peas & Curry Sauce",
                 strings.joinCollectionsToString());
@@ -71,7 +63,7 @@ public class checkYourWork {
 
     @Test
     public void reCaseStringsTest(){
-        StringsMain strings = new StringsMain();
+        Strings strings = new Strings();
         assertEquals("What is the opposite of toUpperCase?",
                 "this is a lower case string",
                 strings.reCaseStrings());
