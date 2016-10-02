@@ -1,5 +1,6 @@
 package main;
 
+import com.sun.deploy.util.StringUtils;
 import org.junit.Test;
 
 /**
@@ -54,6 +55,24 @@ public class StringsMain {
         String myFavouriteBit = splitUpOrder[1];
         System.out.print(myFavouriteBit);
         return myFavouriteBit;
+    }
+
+//  7. We can join collections into a string
+    public String joinCollectionsToString(){
+        String[] splitUpDinnerOrder = {"Fish", "Chips", "Peas", "Curry Sauce"};
+        String dinnerOrder = String.join("", splitUpDinnerOrder);
+        System.out.print(dinnerOrder);
+        return dinnerOrder;
+    }
+
+//  8. We can recase our strings easily
+    public String reCaseStrings(){
+        String lowerCase = "this is a lower case string";
+        String upperCase = lowerCase.toUpperCase();
+        String finalString = upperCase.toUpperCase();
+        System.out.print(finalString);
+        return finalString;
+
     }
 
 

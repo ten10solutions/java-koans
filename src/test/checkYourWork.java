@@ -61,4 +61,19 @@ public class checkYourWork {
                 strings.splitWithoutComma());
     }
 
+    @Test
+    public void joinCollectionsToStringTest(){
+        StringsMain strings = new StringsMain();
+        assertEquals("That's not my favourite bit!",
+                "Fish & Chips & Peas & Curry Sauce",
+                strings.joinCollectionsToString());
+    }
+
+    @Test
+    public void reCaseStringsTest(){
+        StringsMain strings = new StringsMain();
+        assertEquals("What is the opposite of toUpperCase?",
+                "this is a lower case string",
+                strings.reCaseStrings());
+    }
 }
