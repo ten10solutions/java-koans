@@ -40,6 +40,7 @@ public class Equalities {
         assert(
 
                 BLANK != true
+
         );
         return true;
     }
