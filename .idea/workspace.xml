@@ -2,16 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f9b46bc6-1e62-4570-821d-5598b6a775e6" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/ArraysAndLists.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/ArraysAndListsCheckYourWork.java" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/externalDependencies.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/java-koans.iml" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/copyright/profiles_settings.xml" afterPath="$PROJECT_DIR$/.idea/copyright/profiles_settings.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/Integers.java" afterPath="$PROJECT_DIR$/src/main/Integers.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/EqualitiesCheckYourWork.java" afterPath="$PROJECT_DIR$/src/test/EqualitiesCheckYourWork.java" />
     </list>
     <ignored path="java-koans.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -661,6 +652,14 @@
       <option name="presentableId" value="Default" />
       <updated>1475683541115</updated>
     </task>
+    <task id="LOCAL-00001" summary="Started arrays and lists tests">
+      <created>1475775553617</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1475775553617</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -735,6 +734,10 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Started arrays and lists tests" />
+    <option name="LAST_COMMIT_MESSAGE" value="Started arrays and lists tests" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
