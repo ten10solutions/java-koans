@@ -76,4 +76,47 @@ public class SimpleStatements {
         return loopStrings.get(0);
     }
 
+//  6. We can break out of a loop
+    public int breakLoop(){
+        int i;
+        String message = "im a message";
+        for (i = 0; i < 10 ; i++){
+            if (message.equals("Stop this crazy loop!")){
+                break;
+            }
+
+        }
+        return i;
+    }
+
+//  7. Or we can return to the beginning of a loop if we need //
+    public int continueLoop(){
+        int i;
+
+        for (i = 0; i < 10 ; i++){
+            if (i<=5) {
+                System.out.print(i);
+                continue;
+            }
+        System.out.println(String.format("%s is greater than 5", i));
+        }
+        return i;
+    }
+
+//  8. We can nest loops
+    public int nestedLoop(){
+        int i = 0,j = 0;
+        ArrayList<Integer> myNewList = new ArrayList<>();
+
+        for (i = 0; i < 10 ; i++){
+
+            for (j = 0; j < 10 ; j++){
+
+                myNewList.add(i+j);
+            }
+        }
+        System.out.print(myNewList);
+    return j;
+    }
+
 }

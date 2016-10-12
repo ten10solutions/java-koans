@@ -48,4 +48,25 @@ public class SimpleStatementsCheckYourWork {
         assertEquals("Alter the loop to return the expected String" ,"Dum",answer);
     }
 
+    @Test
+    public void breakLoopTest(){
+        SimpleStatements statements = new SimpleStatements();
+        int answer = statements.breakLoop();
+        assertEquals("Try changing the message so you return the expected value" ,0,answer);
+    }
+
+    @Test
+    public void continueLoopTest(){
+        SimpleStatements statements = new SimpleStatements();
+        int answer = statements.continueLoop();
+        assertEquals("Look carefully at the loop itself" ,11,answer);
+    }
+
+    @Test
+    public void nestedLoopTest(){
+        SimpleStatements statements = new SimpleStatements();
+        int answer = statements.nestedLoop();
+        assertEquals("Look carefully at the loop itself" ,11,answer);
+    }
+
 }

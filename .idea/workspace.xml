@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f9b46bc6-1e62-4570-821d-5598b6a775e6" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/SimpleStatements.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/SimpleStatementsCheckYourWork.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/SimpleStatements.java" afterPath="$PROJECT_DIR$/src/main/SimpleStatements.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/SimpleStatementsCheckYourWork.java" afterPath="$PROJECT_DIR$/src/test/SimpleStatementsCheckYourWork.java" />
     </list>
     <ignored path="java-koans.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -29,7 +29,7 @@
         <entry file="file://$USER_HOME$/Downloads/python-koans-2/python-koans-716596d9e50a/koans/06_simple_statements.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="-85">
-              <caret line="16" column="25" selection-start-line="16" selection-start-column="25" selection-end-line="16" selection-end-column="25" />
+              <caret line="51" column="32" selection-start-line="51" selection-start-column="32" selection-end-line="51" selection-end-column="32" />
               <folding />
             </state>
           </provider>
@@ -38,8 +38,8 @@
       <file leaf-file-name="ArraysAndLists.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/ArraysAndLists.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="92" column="83" selection-start-line="92" selection-start-column="55" selection-end-line="92" selection-end-column="83" />
+            <state relative-caret-position="85">
+              <caret line="92" column="8" selection-start-line="92" selection-start-column="8" selection-end-line="92" selection-end-column="85" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -50,8 +50,8 @@
       <file leaf-file-name="SimpleStatements.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/SimpleStatements.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="203">
-              <caret line="73" column="9" selection-start-line="73" selection-start-column="9" selection-end-line="73" selection-end-column="9" />
+            <state relative-caret-position="118">
+              <caret line="111" column="12" selection-start-line="111" selection-start-column="12" selection-end-line="111" selection-end-column="12" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -62,8 +62,8 @@
       <file leaf-file-name="SimpleStatementsCheckYourWork.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/SimpleStatementsCheckYourWork.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="186">
-              <caret line="47" column="66" selection-start-line="47" selection-start-column="66" selection-end-line="47" selection-end-column="66" />
+            <state relative-caret-position="370">
+              <caret line="67" column="44" selection-start-line="67" selection-start-column="44" selection-end-line="67" selection-end-column="44" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -96,8 +96,8 @@
         <option value="$PROJECT_DIR$/src/test/EqualitiesCheckYourWork.java" />
         <option value="$PROJECT_DIR$/src/main/Equalities.java" />
         <option value="$PROJECT_DIR$/src/test/ArraysAndListsCheckYourWork.java" />
-        <option value="$PROJECT_DIR$/src/main/ArraysAndLists.java" />
         <option value="$PROJECT_DIR$/src/test/SimpleStatementsCheckYourWork.java" />
+        <option value="$PROJECT_DIR$/src/main/ArraysAndLists.java" />
         <option value="$PROJECT_DIR$/src/main/SimpleStatements.java" />
       </list>
     </option>
@@ -646,38 +646,45 @@
       <option name="project" value="LOCAL" />
       <updated>1476035643079</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Started simple Statements">
+      <created>1476087588448</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1476087588448</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="SimpleStatementsCheckYourWork - 2016.10.10 at 08h 58m 33s.xml">
+    <history-entry file="SimpleStatementsCheckYourWork - 2016.10.12 at 17h 45m 55s.xml">
       <configuration name="SimpleStatementsCheckYourWork" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SimpleStatementsCheckYourWork - 2016.10.10 at 08h 58m 44s.xml">
+    <history-entry file="SimpleStatementsCheckYourWork - 2016.10.12 at 17h 47m 42s.xml">
       <configuration name="SimpleStatementsCheckYourWork" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SimpleStatementsCheckYourWork - 2016.10.10 at 09h 05m 15s.xml">
+    <history-entry file="SimpleStatementsCheckYourWork - 2016.10.12 at 17h 48m 28s.xml">
       <configuration name="SimpleStatementsCheckYourWork" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SimpleStatementsCheckYourWork - 2016.10.10 at 09h 10m 35s.xml">
+    <history-entry file="SimpleStatementsCheckYourWork - 2016.10.12 at 17h 48m 31s.xml">
       <configuration name="SimpleStatementsCheckYourWork" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SimpleStatementsCheckYourWork - 2016.10.10 at 09h 10m 48s.xml">
+    <history-entry file="SimpleStatementsCheckYourWork - 2016.10.12 at 17h 48m 47s.xml">
       <configuration name="SimpleStatementsCheckYourWork" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SimpleStatementsCheckYourWork - 2016.10.10 at 09h 15m 24s.xml">
+    <history-entry file="SimpleStatementsCheckYourWork - 2016.10.12 at 17h 50m 07s.xml">
       <configuration name="SimpleStatementsCheckYourWork" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SimpleStatementsCheckYourWork - 2016.10.10 at 09h 15m 28s.xml">
+    <history-entry file="SimpleStatementsCheckYourWork - 2016.10.12 at 17h 50m 21s.xml">
       <configuration name="SimpleStatementsCheckYourWork" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SimpleStatementsCheckYourWork - 2016.10.10 at 09h 15m 52s.xml">
+    <history-entry file="SimpleStatementsCheckYourWork - 2016.10.12 at 17h 50m 33s.xml">
       <configuration name="SimpleStatementsCheckYourWork" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SimpleStatementsCheckYourWork - 2016.10.10 at 09h 15m 56s.xml">
+    <history-entry file="SimpleStatementsCheckYourWork - 2016.10.12 at 17h 53m 15s.xml">
       <configuration name="SimpleStatementsCheckYourWork" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SimpleStatementsCheckYourWork - 2016.10.10 at 09h 17m 43s.xml">
+    <history-entry file="SimpleStatementsCheckYourWork - 2016.10.12 at 17h 56m 36s.xml">
       <configuration name="SimpleStatementsCheckYourWork" configurationId="JUnit" />
     </history-entry>
   </component>
@@ -687,12 +694,12 @@
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289689" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3289689" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3289689" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289689" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -725,7 +732,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Started arrays and lists tests" />
     <MESSAGE value="finished Arrays and Lists" />
-    <option name="LAST_COMMIT_MESSAGE" value="finished Arrays and Lists" />
+    <MESSAGE value="Started simple Statements" />
+    <option name="LAST_COMMIT_MESSAGE" value="Started simple Statements" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -873,14 +881,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/Downloads/python-koans-2/python-koans-716596d9e50a/koans/06_simple_statements.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-85">
-          <caret line="16" column="25" selection-start-line="16" selection-start-column="25" selection-end-line="16" selection-end-column="25" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/ArraysAndListsCheckYourWork.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-349">
@@ -891,20 +891,28 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/ArraysAndLists.java">
+    <entry file="file://$USER_HOME$/Downloads/python-koans-2/python-koans-716596d9e50a/koans/06_simple_statements.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="92" column="83" selection-start-line="92" selection-start-column="55" selection-end-line="92" selection-end-column="83" />
+        <state relative-caret-position="-85">
+          <caret line="51" column="32" selection-start-line="51" selection-start-column="32" selection-end-line="51" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/SimpleStatementsCheckYourWork.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="370">
+          <caret line="67" column="44" selection-start-line="67" selection-start-column="44" selection-end-line="67" selection-end-column="44" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/SimpleStatementsCheckYourWork.java">
+    <entry file="file://$PROJECT_DIR$/src/main/ArraysAndLists.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="186">
-          <caret line="47" column="66" selection-start-line="47" selection-start-column="66" selection-end-line="47" selection-end-column="66" />
+        <state relative-caret-position="85">
+          <caret line="92" column="8" selection-start-line="92" selection-start-column="8" selection-end-line="92" selection-end-column="85" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -913,8 +921,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/SimpleStatements.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="203">
-          <caret line="73" column="9" selection-start-line="73" selection-start-column="9" selection-end-line="73" selection-end-column="9" />
+        <state relative-caret-position="118">
+          <caret line="111" column="12" selection-start-line="111" selection-start-column="12" selection-end-line="111" selection-end-column="12" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
