@@ -27,7 +27,7 @@ public class EqualitiesCheckYourWork {
     public void testingEquality(){
         Equalities eq = new Equalities();
         try {
-            assertTrue(eq.testingEquality());
+            assertTrue("message",eq.testingEquality());
             System.out.print("Yep, Well done true does equal true");
         } catch (NullPointerException e){
             System.out.print("Nope, try removing changing the BLANK for the boolean that will balance the equation\n\n");
