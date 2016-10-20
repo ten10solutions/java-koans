@@ -25,6 +25,7 @@ public class Equalities {
     //  1. We shall contemplate truth by testing reality, via equality
 
     public Boolean testingEquality(){
+
         assert(
 
 
