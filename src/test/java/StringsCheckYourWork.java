@@ -1,9 +1,8 @@
-package test;
 
-import main.Strings;
 import org.junit.Test;
 
-import static org.junit.Assert.*;
+import static junit.framework.TestCase.assertEquals;
+
 /**
  * Created by Jack Forman on 30/09/2016.
  */

@@ -1,7 +1,4 @@
-package test;
-
 import junit.framework.TestCase;
-import main.Integers;
 import org.junit.Test;
 import org.junit.Assert.*;
 

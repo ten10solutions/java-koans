@@ -1,7 +1,4 @@
-package main;
 
-import com.sun.deploy.util.StringUtils;
-import org.junit.Test;
 
 /**
  * Created by C0952235 on 30/09/2016.

@@ -1,9 +1,5 @@
-package main;
-
 import java.util.*;
 
-import static junit.framework.TestCase.assertFalse;
-import static junit.framework.TestCase.assertTrue;
 
 /**
  * Created by James Lockley on 03/10/2016.

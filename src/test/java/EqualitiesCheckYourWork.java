@@ -1,16 +1,14 @@
-package test;
-
 /**
  * Created by C0952235 on 30/09/2016.
  */
 
 import com.sun.istack.internal.NotNull;
-import main.MyUnit;
+
 import org.junit.Ignore;
 import org.junit.Test;
 import org.omg.CORBA.OBJ_ADAPTER;
 import org.omg.CORBA.Object;
-import main.Equalities;
+
 import java.util.Arrays;
 import java.util.stream.IntStream;
 
