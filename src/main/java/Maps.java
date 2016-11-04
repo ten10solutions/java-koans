@@ -14,13 +14,13 @@ public class Maps {
 	public String questionThreeDinner;
     public String questionFourAnswer;
 
-	private Map<String, String> hashMap = new HashMap<>();
+	public Map<String, String> hashMap = new HashMap<>();
 	private Map<String, String> emptyMap = new HashMap<>();
 
 	// 1. We can see how many entries our Map has
 	public Integer sizeOfMap() {
 		Map<String, String> simpleMap = createSimpleMap("Key", "Value");
-        numberOfEntries = 1;
+        numberOfEntries = 10;
 		return simpleMap.size();
 	}
 
@@ -49,23 +49,22 @@ public class Maps {
 
 	// 5. We can add a dictionary into another dictionary
 	public Map<String, String> addMapToMap(String key, String value) {
-		Map<String, String> anotherMap = createSimpleMap("Dessert", "Ice-cream");
+		Map<String, String> anotherMap = createSimpleMap(key, "Ice-cream");
 		hashMap.putAll(anotherMap);
 		return hashMap;
 	}
 
 	// 6. We can list the keys of a map
 	public Set<String> keysOfMap() {
+        Map<String, String> tempMap = createSimpleMap("Elevensies","Grapes");
 		Set<String> keys = hashMap.keySet();
-		System.out.println("Keys : " + keys.toString());
-		return null;
+		return tempMap.keySet();
 	}
 
 	//7. We can also list the values of a map
 	public Collection<String> valuesOfMap() {
-        Collection<String> values = hashMap.values();
-		System.out.println("Values : " + values.toString());
-		return null;
+        Map<String, String> tempMap = createSimpleMap("Fondue","Cheese");
+		return emptyMap.values();
 	}
 
 	private static <T> Map<T, String> createSimpleMap(T key, String value) {

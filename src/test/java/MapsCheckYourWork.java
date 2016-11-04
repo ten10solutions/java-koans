@@ -1,7 +1,10 @@
 
+
 import org.junit.Test;
 
+import java.util.Collection;
 import java.util.Map;
+import java.util.Set;
 
 import static junit.framework.TestCase.assertEquals;
 import static org.junit.Assert.assertTrue;
@@ -45,9 +48,9 @@ public class MapsCheckYourWork {
     @Test
     public void testingMapHasKey(){
         Boolean trueBool = true;
-        String answer = maps.questionFourAnswer;
         Boolean containsKey = maps.isKeyInMap();
-        assertEquals("\n" + answer + " Is not in a key in the map, try a different key.",trueBool,containsKey);
+        String answer = maps.questionFourAnswer;
+        assertEquals("\n" + answer + " Is not a key in the map: " + maps.hashMap + " try a different key.",trueBool,containsKey);
         System.out.println("CORRECT, " + answer + " was a key in the map!!");
     }
 
@@ -57,8 +60,24 @@ public class MapsCheckYourWork {
         String key = "Snack";
         String value = "Chocolate bar";
         Map<String, String> answerMap = maps.addMapToMap(key,value);
-        assertTrue("\n Try Again, the map returned does not include the new map, try looking at the method parameters", answerMap.containsKey(key));
-        String answervalue = answerMap.get(key);
-        assertEquals("I LIKE CHICKEN ",value, answervalue);
+        assertEquals("\n Try Again, the 'Snack' within the map returned was not as expected: ",
+                value, answerMap.get(key));
+        System.out.print("CORRECT, you added a map into another");
+    }
+
+    // 6. We can list the keys of a map
+    @Test
+    public void testingKeysList(){
+        Set<String> resultSet = maps.keysOfMap();
+        assertEquals("\n Key set returned was not the key set of 'hashMap': ", maps.hashMap.keySet(), resultSet);
+        System.out.print("CORRECT, that was the expected key set");
+    }
+
+    //7. We can also list the values of a map
+    @Test
+    public void testingValuesList(){
+        Collection<String> resultCollection = maps.valuesOfMap();
+        assertEquals("\n Values returned were not the values of 'hashMap': ", maps.hashMap.values(), resultCollection);
+        System.out.print("CORRECT, that was the expected values collection");
     }
 }
