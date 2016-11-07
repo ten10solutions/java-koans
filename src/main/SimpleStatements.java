@@ -104,19 +104,33 @@ public class SimpleStatements {
     }
 
 //  8. We can nest loops
-    public int nestedLoop(){
-        int i = 0,j = 0;
+    public ArrayList<Integer> nestedLoop(){
         ArrayList<Integer> myNewList = new ArrayList<>();
-
-        for (i = 0; i < 10 ; i++){
-
-            for (j = 0; j < 10 ; j++){
-
+        for (int i = 0; i < 10 ; i++){
+            for (int j = 0; j < 10 ; j++){
                 myNewList.add(i+j);
             }
         }
-        System.out.print(myNewList);
-    return j;
+    return myNewList;
+    }
+
+//  9. And we can even nest If's
+    public String nestedIf(){
+        String name = "Jack";
+        String secondName = "Forman";
+        if (name.equals("Jack")){
+            if (secondName.equals("Forman")){
+                return name + secondName;
+            }
+        }else {
+            if (name.equals("")) {
+                System.out.println("You need to add your Name");
+                return "no name entered";
+            } else {
+                return name + " " +  secondName;
+            }
+        }
+        return null;
     }
 
 }

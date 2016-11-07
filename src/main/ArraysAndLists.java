@@ -54,7 +54,6 @@ public class ArraysAndLists {
     public List<Integer> addToAList(){
         List<Integer> myNewList = new ArrayList<>();
         myNewList.add(1);
-
         System.out.print(myNewList);
         return myNewList;
     }
