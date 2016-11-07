@@ -53,7 +53,7 @@ public class MapsCheckYourWork {
 
     // 1. We can see how many entries our Map has
     @Test
-    public void testingMapSize(){
+    public void mapSizeTest(){
         int mapSize = maps.sizeOfMap();
         int answer = maps.numberOfEntries;
         assertEquals("\nTry again, the expected size of the map was not returned",mapSize,answer);
@@ -62,16 +62,16 @@ public class MapsCheckYourWork {
 
     // 2. We can access Map keys to get the value associated
     @Test
-    public void testingValuesFromMap(){
+    public void valuesFromMapTest(){
         String value = maps.valuesFromMap();
-        String answer = maps.questionTwoAnswer;
+        String answer = "Toast";
         assertEquals("\nTry again, the expected value from the map was not returned",value, answer);
         System.out.print("CORRECT, the expected value was : " + value);
     }
 
     // 3. We can add to our Map
     @Test
-    public void testingAddToMap(){
+    public void addToMapTest(){
         String value = maps.addToMap("Pork and Beans");
         String answer = maps.questionThreeLunch;
         assertEquals("\nNot quite what I want for lunch, Remember I am passing what I want to you",value, answer);
@@ -80,7 +80,7 @@ public class MapsCheckYourWork {
 
     // 4. We can see if our dictionary has a key
     @Test
-    public void testingMapHasKey(){
+    public void mapHasKeyTest(){
         Boolean trueBool = true;
         Boolean containsKey = maps.isKeyInMap();
         String answer = maps.questionFourAnswer;
@@ -90,7 +90,7 @@ public class MapsCheckYourWork {
 
     // 5. We can add a dictionary into another dictionary
     @Test
-    public void testingAddDictionaryToDictionary(){
+    public void addMapToMapTest(){
         String key = "Snack";
         String value = "Chocolate bar";
         Map<String, String> answerMap = maps.addMapToMap(key,value);
@@ -101,7 +101,7 @@ public class MapsCheckYourWork {
 
     // 6. We can list the keys of a map
     @Test
-    public void testingKeysList(){
+    public void keysOfMapTest(){
         Set<String> resultSet = maps.keysOfMap();
         assertEquals("\n Key set returned was not the key set of 'hashMap': ", maps.hashMap.keySet(), resultSet);
         System.out.print("CORRECT, that was the expected key set");
@@ -109,7 +109,7 @@ public class MapsCheckYourWork {
 
     //7. We can also list the values of a map
     @Test
-    public void testingValuesList(){
+    public void valueOfMapTest(){
         Collection<String> resultCollection = maps.valuesOfMap();
         assertEquals("\n Values returned were not the values of 'hashMap': ", maps.hashMap.values(), resultCollection);
         System.out.print("CORRECT, that was the expected values collection");

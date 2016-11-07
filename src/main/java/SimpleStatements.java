@@ -8,7 +8,10 @@ import java.util.List;
  */
 public class SimpleStatements {
 
-//  1. Sometimes we need our code to make a decision
+
+    /*****************************************************************
+     *1. Sometimes we need our code to make a decision
+     *****************************************************************/
     public String ifStatement(){
         String name = "Jack";
         if (name.equals("Jack")){
@@ -20,7 +23,9 @@ public class SimpleStatements {
         }
     }
 
-//  2. We can have as many choices as we want
+    /*****************************************************************
+     *2. We can have as many choices as we want
+     *****************************************************************/
     public String ifElseIfStatement() {
         String name = "Jack";
         if (name.equals("Jack")) {
@@ -30,7 +35,7 @@ public class SimpleStatements {
             System.out.print("I work with another guy called James");
             return name;
         } else if (name.equals("Ryan")) {
-            System.out.print("Ryans nickname is RyRy");
+            System.out.print("Ryan's nickname is RyRy");
             return name;
         } else {
             System.out.print(String.format("Hi %s lets learn about JAVA", name));
@@ -38,9 +43,10 @@ public class SimpleStatements {
         }
     }
 
-//  3. We can loop over other things as well as lists
+    /*****************************************************************
+     *3. We can loop over other things as well as lists
+     *****************************************************************/
     public int loopNotLists(){
-
         int countFrom = 0;
         int countUpTo = 10;
         for (int i=countFrom; i<=countUpTo ;i++){
@@ -49,7 +55,9 @@ public class SimpleStatements {
         return countUpTo;
     }
 
-//  4. There's more than one way to Loop
+    /*****************************************************************
+     *4. There's more than one way to Loop
+     *****************************************************************/
     public int whileLoop(){
         int countFrom = 0;
         int countUpTo = 10;
@@ -60,9 +68,10 @@ public class SimpleStatements {
         return countUpTo;
     }
 
-//  5. There's more than 2 ways to Loop
+    /*****************************************************************
+     *5. There's more than 2 ways to Loop
+     *****************************************************************/
     public String forEachLoop(){
-        String newString = "Lets all loop in Java, duh duh de dum";
         List<String> loopStrings = new ArrayList<>(Arrays.asList("Lets", "all", "loop", "in", "Java", "duh", "duh", "de", "dum"));
         for (String word: loopStrings){
             System.out.print(word);
@@ -74,7 +83,9 @@ public class SimpleStatements {
         return loopStrings.get(0);
     }
 
-//  6. We can break out of a loop
+    /*****************************************************************
+     *6. We can break out of a loop
+     *****************************************************************/
     public int breakLoop(){
         int i;
         String message = "im a message";
@@ -87,7 +98,9 @@ public class SimpleStatements {
         return i;
     }
 
-//  7. Or we can return to the beginning of a loop if we need //
+    /*****************************************************************
+     *7. Or we can return to the beginning of a loop if we need
+     *****************************************************************/
     public int continueLoop(){
         int i;
 
@@ -101,7 +114,9 @@ public class SimpleStatements {
         return i;
     }
 
-//  8. We can nest loops
+    /*****************************************************************
+     *8. We can nest loops
+     *****************************************************************/
     public ArrayList<Integer> nestedLoop(){
         ArrayList<Integer> myNewList = new ArrayList<>();
         for (int i = 0; i < 10 ; i++){
@@ -112,7 +127,9 @@ public class SimpleStatements {
     return myNewList;
     }
 
-//  9. And we can even nest If's
+    /*****************************************************************
+     *9. And we can even nest If's
+     *****************************************************************/
     public String nestedIf(){
         String name = "Jack";
         String secondName = "Forman";

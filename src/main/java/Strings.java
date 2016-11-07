@@ -5,14 +5,18 @@
  */
 public class Strings {
 
-// 1. print Hello World to the console
+    /*****************************************************************
+     *1. print Hello World to the console
+     *****************************************************************/
     public String printAString(){
         String helloWorld = "";
         System.out.print(helloWorld);
         return helloWorld;
     }
 
-//  2. Now use a charArray to print Hello World to the console
+    /*****************************************************************
+     *2. Now use a charArray to print Hello World to the console
+     *****************************************************************/
     public String charToString(){
         char[] helloArray = { 'H','E' };
         String helloString = new String(helloArray);
@@ -20,15 +24,19 @@ public class Strings {
         return helloString;
     }
 
-//  3. Seek balance in quotation marks - print the following and replace the blanks for punctuation
-// -> Jack said __ I love Strings i Java __
+    /*****************************************************************
+     *3. Seek balance in quotation marks - print the following and replace the blanks for punctuation
+     * Jack said __ I love Strings i Java __
+     *****************************************************************/
     public String quoteMarks(){
         String jacksQuote = "";
         System.out.println( jacksQuote );
         return jacksQuote;
     }
 
-//  4. We can use just part of a string
+    /*****************************************************************
+     *4. We can use just part of a string
+     *****************************************************************/
     public String partOfAString(){
         String largeString = "123456789";
         String smallString = largeString.substring(2);
@@ -36,7 +44,9 @@ public class Strings {
         return smallString;
     }
 
-//  5. We can make a collection of words from a string
+    /*****************************************************************
+     *5. We can make a collection of words from a string
+     *****************************************************************/
     public String makeCollectionOfWords(){
         String breakfastOrder = "Bacon,Sausage,Egg,Tomato";
         String[] splitUpOrder = breakfastOrder.split(",");
@@ -45,7 +55,9 @@ public class Strings {
         return myFavouriteBit;
     }
 
-//  6. We don't have to split on a comma
+    /*****************************************************************
+     *6. We don't have to split on a comma
+     *****************************************************************/
     public String splitWithoutComma(){
         String lunchOrder = "Tuna Mayonnaise Cucumber Butter";
         String[] splitUpOrder = lunchOrder.split("a");
@@ -54,7 +66,9 @@ public class Strings {
         return myFavouriteBit;
     }
 
-//  7. We can join collections into a string
+    /*****************************************************************
+     *7. We can join collections into a string
+     *****************************************************************/
     public String joinCollectionsToString(){
         String[] splitUpDinnerOrder = {"Fish", "Chips", "Peas", "Curry Sauce"};
         String dinnerOrder = String.join("", splitUpDinnerOrder);
@@ -62,7 +76,9 @@ public class Strings {
         return dinnerOrder;
     }
 
-//  8. We can recase our strings easily
+    /*****************************************************************
+     *8. We can recase our strings easily
+     *****************************************************************/
     public String reCaseStrings(){
         String lowerCase = "this is a lower case string";
         String upperCase = lowerCase.toUpperCase();

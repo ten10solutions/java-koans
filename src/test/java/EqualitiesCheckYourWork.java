@@ -88,7 +88,7 @@ public class EqualitiesCheckYourWork {
             assertTrue(eq.equalityOfNothing());
             System.out.print("Yep, Well done BLANK IS equal to null\n\n");
         } catch (AssertionError e){
-            System.out.print("Dont panic, try thinking about what blank is currently set to?\nDo you need to change the BLANK to make this pass or something else?\n");
+            System.out.print("Don't Panic!\nThis one takes a bit of thought\nAre you sure BLANK isn't equal to Null?\nDo you need to change the BLANK to make this pass or something else?\n");
             fail();
         }
 

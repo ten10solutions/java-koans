@@ -12,7 +12,9 @@ import java.util.List;
  */
 public class ArraysAndLists {
 
-//  1. We can assign a new array full of values
+    /*****************************************************************
+     *1. We can assign a new array full of values
+     *****************************************************************/
     public int newArray(){
         int[] myNewArray = {1,2,3,4};
         int theThirdNumber = myNewArray[3];
@@ -20,7 +22,9 @@ public class ArraysAndLists {
         return theThirdNumber;
         }
 
-//  2. We can create an Array by its size
+    /*****************************************************************
+     *2. We can create an Array by its size
+     *****************************************************************/
     public int[] newArrayBySize(){
         int[] myNewArray = new int[10];
         myNewArray[0] = 1;
@@ -28,7 +32,9 @@ public class ArraysAndLists {
         return myNewArray;
     }
 
-//  3. We can do something with each element of a list
+    /*****************************************************************
+     *3. We can do something with each element of a list
+     *****************************************************************/
     public int[] iterateThroughArray(){
         int[] myNewArray = {1,2,3,4,5,6,7,8,9,10};
         for (int i = 0; i<=9; i++){
@@ -38,15 +44,18 @@ public class ArraysAndLists {
         return myNewArray;
     }
 
-//  4. We can sort the elements in an array
+    /*****************************************************************
+     *4. We can sort the elements in an array
+     *****************************************************************/
     public int[] sortArray(){
         int[] myUnsortedArray = {1,6,5,9,2,4,3,7,10};
         Arrays.sort(myUnsortedArray);
         return myUnsortedArray;
     }
 
-//  5. We can't add to an Array - introducing the List
-
+    /*****************************************************************
+     *5. We can't add to an Array - introducing the List
+     *****************************************************************/
     public List<Integer> addToAList(){
         List<Integer> myNewList = new ArrayList<>();
         myNewList.add(1);
@@ -54,7 +63,9 @@ public class ArraysAndLists {
         return myNewList;
     }
 
-//  6. We can access the values of a List
+    /*****************************************************************
+     *6. We can access the values of a List
+     *****************************************************************/
     public int accessListValues(){
         List<Integer> mySimpleList = Arrays.asList(1, 3, 5, 7, 9);
         int theFourthValue = mySimpleList.get(2);
@@ -62,7 +73,9 @@ public class ArraysAndLists {
         return theFourthValue;
     }
 
-//  7. We can remove a value from a List
+    /*****************************************************************
+     *7. We can remove a value from a List
+     *****************************************************************/
     public ArrayList<Integer> removeFromList() {
         ArrayList<Integer> myNewList = new ArrayList<>(Arrays.asList(1, 3, 5, 7, 9));
         myNewList.remove(1);
@@ -70,7 +83,9 @@ public class ArraysAndLists {
         return myNewList;
     }
 
-//  8. We can iterate through a list easily
+    /*****************************************************************
+     *8. We can iterate through a list easily
+     *****************************************************************/
     public ArrayList<Integer> iterateThroughArrayList(){
         ArrayList<Integer> myNewList = new ArrayList<>(Arrays.asList(1, 3, 5, 7, 9));
 
@@ -83,7 +98,9 @@ public class ArraysAndLists {
 
     }
 
-//  9. Or we can use an Iterator
+    /*****************************************************************
+     *9. Or we can use an Iterator
+     *****************************************************************/
     public ArrayList<Integer> useAnIterator(){
         ArrayList<Integer> myNewList = new ArrayList<>(Arrays.asList(1, 3, 5, 7, 9));
         Iterator newIterator = myNewList.iterator();
