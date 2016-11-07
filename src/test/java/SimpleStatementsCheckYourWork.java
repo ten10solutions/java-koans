@@ -1,7 +1,3 @@
-package test;
-
-import main.ArraysAndLists;
-import main.SimpleStatements;
 import org.junit.Test;
 
 import java.util.ArrayList;
