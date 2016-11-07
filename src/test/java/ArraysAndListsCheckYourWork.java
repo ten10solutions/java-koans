@@ -17,6 +17,40 @@ import static org.junit.Assert.fail;
  */
 public class ArraysAndListsCheckYourWork {
 
+
+
+
+
+
+
+
+    /*********************************************************************************************
+     * DONT OPEN THIS FILE AS IT WILL BE LIKE OPENING ALL OF YOUR CHRISTMAS PRESENTS IN NOVEMBER
+     *********************************************************************************************/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     @Test
     public void newArrayTest(){
         ArraysAndLists arrays = new ArraysAndLists();

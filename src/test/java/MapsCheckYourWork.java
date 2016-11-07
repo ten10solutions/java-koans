@@ -15,6 +15,40 @@ import static org.junit.Assert.fail;
  */
 public class MapsCheckYourWork {
 
+
+
+
+
+
+
+
+    /*********************************************************************************************
+     * DONT OPEN THIS FILE AS IT WILL BE LIKE OPENING ALL OF YOUR CHRISTMAS PRESENTS IN NOVEMBER
+     *********************************************************************************************/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     private static Maps maps = new Maps();
 
     // 1. We can see how many entries our Map has

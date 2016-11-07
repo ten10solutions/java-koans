@@ -17,6 +17,41 @@ public class EqualitiesCheckYourWork {
 
 
 
+
+
+
+
+
+
+    /*********************************************************************************************
+     * DONT OPEN THIS FILE AS IT WILL BE LIKE OPENING ALL OF YOUR CHRISTMAS PRESENTS IN NOVEMBER
+     *********************************************************************************************/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     Boolean BLANK;
     int BLANKint;
 

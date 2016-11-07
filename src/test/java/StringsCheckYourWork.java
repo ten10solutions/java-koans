@@ -8,6 +8,40 @@ import static junit.framework.TestCase.assertEquals;
  */
 public class StringsCheckYourWork {
 
+
+
+
+
+
+
+
+    /*********************************************************************************************
+     * DONT OPEN THIS FILE AS IT WILL BE LIKE OPENING ALL OF YOUR CHRISTMAS PRESENTS IN NOVEMBER
+     *********************************************************************************************/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     @Test
     public void printAStringTest(){
         Strings strings = new Strings();
