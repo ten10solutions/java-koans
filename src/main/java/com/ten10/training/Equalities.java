@@ -1,3 +1,5 @@
+package com.ten10.training;
+
 /**
  * Created by C0952235 on 30/09/2016.
  */

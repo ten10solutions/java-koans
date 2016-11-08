@@ -1,6 +1,7 @@
-import junit.framework.TestCase;
+package com.ten10.tests;
+
+import com.ten10.training.Integers;
 import org.junit.Test;
-import org.junit.Assert.*;
 
 import static junit.framework.TestCase.fail;
 import static org.junit.Assert.assertEquals;

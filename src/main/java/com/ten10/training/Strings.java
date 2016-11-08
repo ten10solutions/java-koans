@@ -1,4 +1,4 @@
-
+package com.ten10.training;
 
 /**
  * Created by C0952235 on 30/09/2016.
@@ -26,7 +26,7 @@ public class Strings {
 
     /*****************************************************************
      *3. Seek balance in quotation marks - print the following and replace the blanks for punctuation
-     * Jack said __ I love Strings i Java __
+     * Jack said __ I love com.ten10.training.Strings i Java __
      *****************************************************************/
     public String quoteMarks(){
         String jacksQuote = "";

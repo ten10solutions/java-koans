@@ -1,5 +1,6 @@
+package com.ten10.tests;
 
-
+import com.ten10.training.Maps;
 import org.junit.Test;
 
 import java.util.Collection;

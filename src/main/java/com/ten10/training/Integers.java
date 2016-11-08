@@ -1,3 +1,5 @@
+package com.ten10.training;
+
 /**
  * Created by Jack Forman on 02/10/2016.
  */

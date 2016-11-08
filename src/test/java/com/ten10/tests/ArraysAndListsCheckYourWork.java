@@ -1,5 +1,6 @@
-import junit.framework.Assert;
-import junit.framework.AssertionFailedError;
+package com.ten10.tests;
+
+import com.ten10.training.ArraysAndLists;
 
 import org.junit.Test;
 
@@ -111,16 +112,10 @@ public class ArraysAndListsCheckYourWork {
         ArraysAndLists arrays = new ArraysAndLists();
         int[] answer = {1,2,3,4,5,6,7,8,9,10};
         int[] result = arrays.sortArray();
-        try {
-            assertTrue(Arrays.equals(answer, result));
-            System.out.print("Yep!  You just needed to add an 8");
-        } catch (AssertionError e){
-            System.out.print("Are you sure there are enough values in your array?\n I'm looking for - ");
-            for(int val:answer){
-                System.out.print(val);
-            }
-            fail();
-        }
+        assertTrue("Are you sure there are enough values in your array?\n I'm looking for - " + Arrays.toString(answer),
+                Arrays.equals(answer, result));
+        // Might want to consider removing the next line?
+        System.out.print("Yep!  You just needed to add an 8");
     }
 
     @Test
@@ -146,7 +141,7 @@ public class ArraysAndListsCheckYourWork {
         ArraysAndLists arrays = new ArraysAndLists();
         ArrayList<Integer> answer = new ArrayList<>(Arrays.asList(1, 3, 5, 7, 9, 11));
         ArrayList<Integer> result = arrays.useAnIterator();
-        assertEquals("Try altering the values so they match the below", answer,result);
+        assertEquals("Try altering the values so they match", answer,result);
     }
 
 }

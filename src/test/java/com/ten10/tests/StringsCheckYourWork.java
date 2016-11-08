@@ -1,4 +1,6 @@
+package com.ten10.tests;
 
+import com.ten10.training.Strings;
 import org.junit.Test;
 
 import static junit.framework.TestCase.assertEquals;
@@ -58,7 +60,7 @@ public class StringsCheckYourWork {
     public void quoteMarksTest(){
         Strings strings = new Strings();
         assertEquals("You'll need to work out a way on including speach marks in a String",
-                     "Jack said 'I love Strings in Java'",
+                     "Jack said 'I love com.ten10.training.Strings in Java'",
                       strings.quoteMarks());
     }
 

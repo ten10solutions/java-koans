@@ -1,3 +1,6 @@
+package com.ten10.tests;
+
+import com.ten10.training.SimpleStatements;
 import org.junit.Test;
 
 import java.util.ArrayList;

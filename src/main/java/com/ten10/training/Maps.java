@@ -1,3 +1,5 @@
+package com.ten10.training;
+
 import java.util.*;
 
 
@@ -8,14 +10,14 @@ import java.util.*;
 @SuppressWarnings("MismatchedQueryAndUpdateOfCollection")
 public class Maps {
 
-	int numberOfEntries;
-	String questionTwoAnswer;
-	String questionThreeLunch;
-	String questionThreeDinner;
-    String questionFourAnswer;
+	public int numberOfEntries;
+	public String questionTwoAnswer;
+	public String questionThreeLunch;
+	public String questionThreeDinner;
+	public String questionFourAnswer;
 
-	Map<String, String> hashMap = new HashMap<>();
-	Map<String, String> emptyMap = new HashMap<>();
+	public Map<String, String> hashMap = new HashMap<>();
+	public Map<String, String> emptyMap = new HashMap<>();
 
 
 	/*****************************************************************
