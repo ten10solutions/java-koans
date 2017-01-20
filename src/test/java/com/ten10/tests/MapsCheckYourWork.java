@@ -54,7 +54,7 @@ public class MapsCheckYourWork {
 
     // 1. We can see how many entries our Map has
     @Test
-    public void mapSizeTest(){
+    public void sizeOfTest(){
         int mapSize = maps.sizeOfMap();
         int answer = maps.numberOfEntries;
         assertEquals("\nTry again, the expected size of the map was not returned",mapSize,answer);
@@ -81,7 +81,7 @@ public class MapsCheckYourWork {
 
     // 4. We can see if our dictionary has a key
     @Test
-    public void mapHasKeyTest(){
+    public void isKeyInMapTest(){
         Boolean trueBool = true;
         Boolean containsKey = maps.isKeyInMap();
         String answer = maps.questionFourAnswer;
