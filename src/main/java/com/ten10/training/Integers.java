@@ -13,7 +13,7 @@ public class Integers {
     double questionTwoBlank;
     int questionThreeBlank;
     int questionFourBlank;
-    double questionFiveBlank;
+    int questionFiveBlank;
     int questionSixBlank;
     int questionSevenBlank;
     String questionEightBlank;
