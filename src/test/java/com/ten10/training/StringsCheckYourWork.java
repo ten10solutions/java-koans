@@ -1,6 +1,5 @@
-package com.ten10.tests;
+package com.ten10.training;
 
-import com.ten10.training.Strings;
 import org.junit.Test;
 
 import static junit.framework.TestCase.assertEquals;

@@ -1,6 +1,4 @@
-package com.ten10.tests;
-
-import com.ten10.training.ArraysAndLists;
+package com.ten10.training;
 
 import org.junit.Test;
 
