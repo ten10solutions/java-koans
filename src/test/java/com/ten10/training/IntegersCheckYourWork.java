@@ -70,7 +70,7 @@ public class IntegersCheckYourWork {
     public void fractionsTest() {
         try {
             numbers.fractions();
-            assertEquals(2, numbers.questionFourBlank);
+            assertEquals(2, numbers.questionFiveBlank);
             System.out.print("Well Done!");
         } catch (ArithmeticException | AssertionError e) {
             System.out.print("Hmm, are you sure that's right?\n\n");
