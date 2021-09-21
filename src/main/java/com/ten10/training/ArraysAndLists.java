@@ -98,22 +98,5 @@ public class ArraysAndLists {
 
     }
 
-    /*****************************************************************
-     *9. Or we can use an Iterator
-     *****************************************************************/
-    public ArrayList<Integer> useAnIterator(){
-        ArrayList<Integer> myNewList = new ArrayList<>(Arrays.asList(1, 3, 5, 7, 9));
-        Iterator newIterator = myNewList.iterator();
-        while(newIterator.hasNext()){
-            System.out.print(newIterator.next());
-        }
-        return myNewList;
-    }
-
-
-
-
-
-
 
 }

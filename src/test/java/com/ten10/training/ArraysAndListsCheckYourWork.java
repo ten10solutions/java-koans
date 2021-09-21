@@ -134,12 +134,4 @@ public class ArraysAndListsCheckYourWork {
                 "to match the below", answer,result);
     }
 
-    @Test
-    public void useAnIteratorTest() {
-        ArraysAndLists arrays = new ArraysAndLists();
-        ArrayList<Integer> answer = new ArrayList<>(Arrays.asList(1, 3, 5, 7, 9, 11));
-        ArrayList<Integer> result = arrays.useAnIterator();
-        assertEquals("Try altering the values so they match", answer,result);
-    }
-
 }
